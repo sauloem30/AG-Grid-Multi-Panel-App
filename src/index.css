@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AG Grid themes */
+@import "ag-grid-community/styles/ag-grid.css";
+@import "ag-grid-community/styles/ag-theme-alpine.css";
+
+.ag-header-cell-label {
+  color: black !important;
+  font-weight: 600;
+}
+
+.ag-header {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.ag-floating-filter {
+  background-color: white !important;
+}
+
+.ag-header-cell-label {
+  color: black !important;
+}
